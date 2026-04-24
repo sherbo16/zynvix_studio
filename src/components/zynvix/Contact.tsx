@@ -20,6 +20,7 @@ const Contact = () => {
       to_email: "zynvixstudio@gmail.com",
       from_name: formData.get("name"),
       from_email: formData.get("email"),
+      reply_to_email: formData.get("email"),
       service: formData.get("service"),
       message: formData.get("details"),
     };
