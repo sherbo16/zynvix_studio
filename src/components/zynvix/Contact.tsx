@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState, type FormEvent } from "react";
 import { Mail, Phone, MapPin, Instagram } from "lucide-react";
 import { toast } from "sonner";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Section, { fadeUp, stagger } from "./Section";
 
 // Initialize EmailJS - Replace with your Public Key from emailjs.com
